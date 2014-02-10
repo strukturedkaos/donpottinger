@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"
+    title Don Pottinger
+    = stylesheet_link_tag "normalize", "all"
+    = javascript_include_tag "http://code.jquery.com/jquery-1.10.2.min.js"
+    = javascript_include_tag "all"
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .navbar-header
+        button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href='index.html'
+          | DP
+      .navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li= link_to 'Home', 'index.html'
+          li= link_to 'About', 'about.html'
+          li= link_to 'Resume', 'resume.html'
+          li= link_to 'Contact', '#'
+    .container
+      = yield
