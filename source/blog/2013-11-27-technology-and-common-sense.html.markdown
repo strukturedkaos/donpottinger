@@ -1,6 +1,6 @@
 ---
 title: Technology and Common Sense
-date: 2013-11-27 20:29 UTC
+date: November 27, 2013
 tags: technology, common sense, fatherhood, motherhood, simplicity, solution
 published: true
 ---

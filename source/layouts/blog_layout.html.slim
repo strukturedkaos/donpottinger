@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"
+    title Don Pottinger
+    = stylesheet_link_tag "normalize", "all"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Exo+2:600|Merriweather:400,700"
+    = javascript_include_tag "http://code.jquery.com/jquery-1.10.2.min.js"
+    = javascript_include_tag "all"
+  body
+    a.logo href='/'
+    / share buttons go here
+
+    .main-content.post
+      a.view-archive href='/'
+        h1 View Archive
+      .post-header
+        h1.post-title= current_article.data.title
+        h2.post-subtitle= "Posted on #{current_article.data.date}"
+        .post-content
+          = yield
+
+    = partial "layouts/about"

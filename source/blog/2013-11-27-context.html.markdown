@@ -1,6 +1,6 @@
 ---
 title: Context
-date: 2013-11-27 20:29 UTC
+date: November 27, 2013
 tags: technology, context
 published: false
 ---
