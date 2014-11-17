@@ -1,6 +1,6 @@
 ---
 title: Simple Solutions Without Technology
-date: November 27, 2013
+date: November 28, 2013
 tags: technology, common sense, fatherhood, motherhood, simplicity, solution
 published: true
 ---
