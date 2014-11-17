@@ -43,7 +43,7 @@ ul
     h1
       font-size: 16px
       font-family: 'Exo 2', sans-serif
-      color: rgb( 149, 175, 184 )
+      color: rgba( 255, 255, 255, .45 )
       font-weight: bold
       text-transform: uppercase
       margin-top: 10px
@@ -52,7 +52,8 @@ ul
 
       &:before
         content: ""
-        background: url(../images/left-arrow.png) no-repeat center bottom
+        background: url(../images/left-arrow-white.png) no-repeat center bottom
+        opacity: .4
         height: 37px
         width: 37px
         display: block
@@ -63,7 +64,6 @@ ul
 
 
   .about-inner
-    position: relative
     background: #3e9ac7 url(../images/don-sidebar.png) no-repeat center bottom
     background-blend-mode: soft-light
     background-size: cover
@@ -73,6 +73,39 @@ ul
     height: 100%
     overflow: hidden
     position: relative
+
+.about-overlay
+  position: fixed
+  display: none
+  background-color: rgba(0, 0, 0, .8)
+  width: 100%
+  height: 100%
+  top: 0
+  right: 0
+
+  .about-inner
+    background-color: #e2eaed
+    position: absolute
+    // margin-top: 112px
+    width: 700px
+    height: 100%
+    right: 0px
+    // padding-left: 340px
+
+    &:before
+      content: ""
+      position: absolute
+      height: 50%
+      width: 50%
+      z-index: -1
+      background: #e2eaed url(../images/don.png) no-repeat center bottom
+      background-size: cover
+      background-position: right 40px center
+
+    p
+      font-size: 16px
+      font-family: "Myriad Pro"
+      color: rgb( 76, 94, 100 )
 
 
 
