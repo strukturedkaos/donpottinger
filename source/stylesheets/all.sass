@@ -8,6 +8,15 @@ ul
   list-style: none
   padding: 0
 
+.clearfix
+  &:before
+    content: " "
+    display: table
+  &:after
+    content: " "
+    display: table
+    clear: both
+
 .logo
   position: fixed
   background: #4c5e64 url(../images/logo.png) no-repeat center center
@@ -113,7 +122,6 @@ ul
             right: 25px
 
   &.post
-    padding-right: 180px
 
     a.view-archive
       text-decoration: none
@@ -128,7 +136,6 @@ ul
         font-weight: bold
         text-transform: uppercase
         margin-top: 54px
-        border-bottom: 1px dotted #929fa4
 
         &:before
           content: ""
@@ -141,25 +148,77 @@ ul
           left: 0px
           top: 4px
 
-    h1.post-title
-      font-size: 28px
-      font-family: "TisaPro"
-      color: rgb( 76, 94, 100 )
-      font-weight: bold
-      margin: 22px 0
-
-    h2.post-subtitle
-      padding-bottom: 22px
-      font-size: 14px
-      font-family: "Exo 2"
-      color: rgb( 146, 159, 164 )
-      font-weight: bold
-      text-transform: uppercase
+    .post-header
+      width: 100%
+      border-top: 1px dotted #929fa4
       border-bottom: 1px dotted #929fa4
+      padding-right: 30px
+
+      h1.post-title
+        font-size: 28px
+        color: rgb( 76, 94, 100 )
+        font-weight: bold
+        margin: 20px 0 10px 0
+        max-width: 700px
+
+      h2.post-subtitle
+        padding-bottom: 15px
+        font-size: 14px
+        font-family: "Exo 2"
+        color: rgb( 146, 159, 164 )
+        font-weight: bold
+        text-transform: uppercase
 
     .post-content
-      font-size: 16px
-      font-family: "Myriad Pro"
+      font-size: 17px
       color: rgb( 76, 94, 100 )
-      line-height: 1.563
+      line-height: 1.6
       margin-top: 28px
+      max-width: 700px
+      padding-right: 30px
+
+    .post-footer
+      width: 100%
+      position: relative
+
+      &:after
+        content: ""
+        border-left: 1px dotted #929fa4
+        height: 100%
+        width: 1px
+        position: absolute
+        top: 0
+        left: 50%
+        display: block
+
+      p
+        font-size: 12px
+        font-family: "Exo 2"
+        color: rgb( 146, 159, 164 )
+        font-weight: bold
+        text-transform: uppercase
+        padding-bottom: 10px
+        border-bottom: 1px dotted #929fa4
+
+      a
+        font-size: 16px
+        color: rgb( 109, 119, 123 )
+        font-weight: bold
+        text-decoration: none
+
+        &:hover
+          color: #1fa8e3
+
+
+      .previous-post
+        width: 50%
+        float: left
+
+      .next-post
+        width: 50%
+        float: right
+        text-align: right
+
+        a
+          padding-left: 56px
+          position: relative

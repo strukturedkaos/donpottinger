@@ -17,7 +17,21 @@ html
       .post-header
         h1.post-title= current_article.data.title
         h2.post-subtitle= "Posted on #{current_article.data.date}"
-        .post-content
-          = yield
+      .post-content
+        = yield
+
+        .post-footer.clearfix
+          - previous_article = current_article.previous_article
+          - if previous_article
+            .previous-post
+              p Previous Post
+              a href=previous_article.url
+                = previous_article.title
+          - next_article = current_article.next_article
+          - if next_article
+            .next-post
+              p Next Post
+              a href=next_article.url
+                = next_article.title
 
     = partial "layouts/about"
