@@ -76,38 +76,124 @@ ul
 
 .about-overlay
   position: fixed
-  display: none
-  background-color: rgba(0, 0, 0, .8)
+  background-color: rgba(0, 0, 0, 0)
   width: 100%
   height: 100%
   top: 0
   right: 0
+  transition: all .3s .5s linear
+  z-index: -1
+
+  &.open
+    background-color: rgba(0, 0, 0, .8)
+    transition: all .3s linear
+    z-index: 10
+
+    .about-inner
+      right: 0px
 
   .about-inner
     background-color: #e2eaed
     position: absolute
-    // margin-top: 112px
     width: 700px
     height: 100%
-    right: 0px
-    // padding-left: 340px
-
-    &:before
-      content: ""
-      position: absolute
-      height: 50%
-      width: 50%
-      z-index: -1
-      background: #e2eaed url(../images/don.png) no-repeat center bottom
-      background-size: cover
-      background-position: right 40px center
+    right: -700px
+    transition: all .3s .2s linear
 
     p
       font-size: 16px
       font-family: "Myriad Pro"
       color: rgb( 76, 94, 100 )
 
+  .about-content
+    padding-left: 340px
+    position: relative
+    height: 100%
 
+    img.colored-don
+      position: absolute
+      left: 30px
+      bottom: -90px
+
+    .about-close
+      position: absolute
+      left: 30px
+      top: 30px
+      font-size: 17px
+      font-family: 'Exo 2', sans-serif
+      color: #929fa4
+      font-weight: bold
+      text-transform: uppercase
+      cursor: pointer
+
+      &:hover
+        .about-close-inner:after
+          transform: rotate(315deg)
+          -webkit-transform: rotate(315deg)
+
+        .about-close-inner:before
+          transform: rotate(-315deg)
+          -webkit-transform: rotate(-315deg)
+
+      .about-close-inner
+        position: relative
+        height: 40px
+        width: 40px
+        border-radius: 50%
+        border: 3px solid #929fa4
+        display: inline-block
+        vertical-align: middle
+        margin-right: 10px
+
+        &:after, &:before
+          content: ""
+          width: 20px
+          height: 3px
+          display: block
+          background-color: #929fa4
+          position: absolute
+          left: 7px
+          top: 15px
+          transition: all .3s linear
+
+        &:after
+          transform: rotate(45deg)
+          -webkit-transform: rotate(45deg)
+
+        &:before
+          transform: rotate(-45deg)
+          -webkit-transform: rotate(-45deg)
+
+
+
+    .about-text
+      padding: 40px 50px 0 0px
+      overflow-y: scroll
+      height: 100%
+      font-size: 16px
+      font-family: "Myriad Pro"
+      color: rgb(76, 94, 100)
+      line-height: 1.563
+
+      h3
+        font-size: 16px
+        font-family: "Exo 2"
+        color: rgb(146, 159, 164)
+        font-weight: bold
+        text-transform: uppercase
+
+      ul
+        &.recent-projects
+          li a
+            font-size: 16px
+            font-family: "Myriad Pro"
+            color: rgb(31, 168, 226)
+            line-height: 1.5
+            text-decoration: none
+
+        &.facts
+          list-style: circle
+          display: list-item
 
 .navbar
   background: #FFFFFF
