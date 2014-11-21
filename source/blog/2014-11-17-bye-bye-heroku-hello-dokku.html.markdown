@@ -1,182 +1,245 @@
 ---
 title: Bye Bye Heroku, Hello Dokku
-date: 2014-11-17 18:07 EST
-tags:
-
+date: November 17, 2014
+tags: Dokku, Heroku, DigitalOcean
+published: true
 ---
 
-I've been wanting to transition [Body Boss](https://sport.bodybossfitness.com) from Heroku for a while now. We were spending about $150 / mo to use about 4 web dynos, Postgres, Elasticsearch, Redis and Heroku's SSL add-ons. Heroku had been good to us - it allowed us to focus our time and energy on building the product rather than DevOps.
+Building a web app? It's so easy to deploy using [Heroku](https://www.heroku.com/). Saving time and effort by using Heroku, a cloud platform as a service (PaaS), allowed us to focus our time and energy on building the product. Heroku had been good to us, but we were spending about $150 / mo using about 4 web dynos and the following add-ons:
 
-However, the time had come to say good-bye because we weren't actively developing new features or pursuing new customers, so we needed to minimize costs to keep Body Boss profitable.
+ * [Heroku Postgres - Standard 0 Plan](https://addons.heroku.com/heroku-postgresql#standard-0)
+ * [Bonsai Elasticsearch - Staging Plan at $10 / mo](https://addons.heroku.com/bonsai#staging)
+ * [Redis-To-Go - Mini Plan at $9 / mo](https://addons.heroku.com/redistogo#mini)
+ * [Heroku Scheduler - Free](https://addons.heroku.com/scheduler)
+ * [SSL Endpoint at $20 / mo](https://addons.heroku.com/ssl)
 
-I knew that I wanted to move over to a cloud hosting service, and I thought it would be a great opportunity to give [DigitalOcean](https://www.digitalocean.com/) a try. They offer plans that are extremely affordable at $5 / mo, and it's super easy to set up.
+Also, the app uses [Sidekiq](https://github.com/mperham/sidekiq) for processing background jobs.
 
-Here's how I did it:
+The time had come to say good-bye to Heroku. We weren't actively developing new features or pursuing new customers, so minizing costs became a priority.
 
-On server:
+Moving to a cheaper cloud hosting service made sense, and I thought it would be a great opportunity to give [DigitalOcean](https://www.digitalocean.com/) a try. They offer plans that are extremely affordable at $5 / mo, and it's super easy to set up.
 
-http://dev.housetrip.com/2014/07/06/deploy-rails-and-postgresql-app-to-dokku/
+Now all I needed was a was an easy way to deploy the app. [Dokku](https://github.com/progrium/dokku). Dokku's describes itself as a "Docker powered mini-Heroku in around 100 lines of Bash". It delivers for the most part. It is still rough around the edges in some areas. I felt the pain of these edges when I ran into a few issues.
 
-`ssh root@104.236.12.77`
+Below is a walkthrough how I made the switch, I've included the errors/issues that I ran to and solutions in case you run into similar issues.
 
+### Register Domain and Set Nameservers
 
-# installing the plugin
+First things first, register a domain and setup your nameservers to point to your DNS provider of choice. I use and recommend [Namecheap](http://www.namecheap.com) and [DNSimple](https://dnsimple.com) respectively.
+
+_Note: You can get away with not setting up a domain since your Dokku-deployed app will be accessible via an IP address and port. However, I ran into issues with deployment and accessing my app (502 Gateway errors), and since I wasn't familiar with Dokku, I spent far too much time incorrectly believing that the issue stemmed from the fact that I didn't have an actual domain._
+
+### Create your DigitalOcean Droplet
+
+Login to or create a DigitalOcean account. Create a Droplet. I made sure that the Droplet hostname matched my DNS, and I chose the 1 GB plan since the app can be memory intensive when running background jobs:
+
+<img src="/blog/2014/11/17/bye-bye-heroku-hello-dokku/digitalocean_hostname.png" width="550px" height="300px" />
+
+Select your region. Skip over the Available Settings. Under Select Image, choose the Dokku option under the Applications. As of this writing, it is Dokku v0.2.3 on 14.04 (w/ Docker 1.2.0).
+
+<img src="/blog/2014/11/17/bye-bye-heroku-hello-dokku/digitalocean_app_selection.png" width="550px" height="300px" />
+
+Last step on this page is to add your computer's SSH key, so you can easily log in. Finally, click Create Droplet.
+
+### Configuring your Server and Updating Dokku
+
+Once your droplet has been successfully created, SSH into it your server from you client machine:
+
+```shell
+ssh root@yourdomain.com
+```
+
+Once logged into your server, update Dokku to the lastest version:
+
+```shell
+cd ~/dokku
+git pull origin master
+make install
+```
+
+Dokku uses Buildstep to build applications using Heroku's buildpacks. Update to the latest supported buildpacks to avoid any build errors when deploying:
+
+```shell
+docker pull progrium/buildstep:latest
+```
+
+I ran into out of memory errors when deploying app. To avoid this, add swap space to your server. I followed the instructions [here](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04). Here are the basic steps:
+
+```shell
+dd if=/dev/zero of=/swapfile bs=1024 count=1024000
+mkswap /swapfile
+swapon /swapfile
+```
+
+### Deploying your App
+
+From your client machine, navigate to your app's project folder and add Dokku as a repo:
+
+```shell
+git remote add dokku dokku@yourdomain.com:appname
+```
+
+Then deploy your app like you would with Heroku:
+
+```shell
+git push dokku master
+```
+
+If you want to push a non-master branch to test things out, switch to that branch and run:
+
+```shell
+git push dokku branchname:master
+```
+
+If the app fails to deploy, and it's not immediately clear why, hope over to your server and create a file ``/home/dokku/dokkurc`` that contains the following:
+
+```shell
+export DOKKU_TRACE=1
+```
+
+If your app successfully deployed, it's time to install _ALL_ the plugins!
+
+### Installing Dokku Plugins
+
+Dokku offers plugins that serve as replacements to Heroku add-ons. Some plugins require the app to be deployed before being able to complete installation. For Body Boss, I installed the Dokku plugins for Postgres, Redis, Elasticsearch, Memcached, and Sidekiq:
+
+```shell
 cd /var/lib/dokku/plugins
 git clone https://github.com/Kloadut/dokku-pg-plugin postgresql
-dokku plugins-install
-
-# Create and setup the db
-dokku postgresql:create bodyboss
-
-dokku postgresql:link bodyboss bodyboss
-
-
-
-On Deployment machine:
-
-git remote add dokku dokku@104.236.12.77:bodyboss
-
-
-Copying SSH key:
-
-cat ~/.ssh/id_rsa.pub | ssh root@104.236.12.77 "sudo sshcommand acl-add dokku Macbook"
-
-
-Ran into issue after pushing ``git push dokku master``:
-
-Command: 'set -o pipefail; curl --fail --retry 3 --retry-delay 1 --connect-timeout 3 --max-time 30 https://s3-external-1.amazonaws.com/heroku-buildpack-ruby/ruby-2.1.4.tgz -s -o - | tar zxf - ' failed unexpectedly:
- !
- !     gzip: stdin: unexpected end of file
- !     tar: Child returned status 1
- !     tar: Error is not recoverable: exiting now
- !
-
-Tried increasing the timeout of the curl request by installing build-env plugin and adding ``export CURL_TIMEOUT=60`` and ``export CURL_CONNECT_TIMEOUT=30`` to ``nano /home/dokku/BUILD_ENV``
-
-Ended up being fixed by pulling latest dokku buildstep to update ruby buildpack - ``docker pull progrium/buildstep``
-
-Ran into issue with bundler causing instance to run out of memory during installation of gems. Seems that the job count of 4 was too high for my 512 MB instance. Upped to 1 GB - got a similar error "Cannot allocate memory - /tmp/build/vendor/ruby-2.1.4/bin/ruby extconf.rb  2>&1". Resized instance to 16GB instance and gems installed. Push was successful. Apparently if I had read further in the blog post that I was following it says that to avoid deploy issues that you need to increase the swap space.
-
-
-Setting up Redis:
-
-```bash
-cd /var/lib/dokku/plugins
 git clone https://github.com/luxifer/dokku-redis-plugin redis
-dokku plugins-install
-
-dokku redis:create bodyboss
-
-
-Setting up Sidekiq:
-
-```bash
-cd /var/lib/dokku/plugins
 git clone https://github.com/bigboxsoftware/dokku-sidekiq sidekiq
-dokku plugins-install
-
-dokku sidekiq:activate bodyboss
-```
-
-
-Setting up Memcached using separate fork:
-```bash
-cd /var/lib/dokku/plugins
+git clone https://github.com/rlaneve/dokku-link.git link
 git clone https://github.com/jlachowski/dokku-memcached-plugin memcached
+git clone https://github.com/jezdez/dokku-elasticsearch-plugin elasticsearch
 dokku plugins-install
 ```
 
-Got an error when I ran ``dokku memcached:create bodyboss`` - ``Link plugin not found... Did you install it from https://github.com/rlaneve/dokku-link?``
+_Note: I initially attempted to install the memcached plugin with the dokku-link plugin, but I received an error: ``Link plugin not found... Did you install it from https://github.com/rlaneve/dokku-link?``_
 
-Had to install dokku-link plugin:
+#### Postgres
+
+Once the plugins have been installed, create the Postgres database and link it to your app.
+
+
+```shell
+dokku postgresql:create dbname
+dokku postgresql:link dbname appname
+```
+
+Finally, migrate the database:
+
+```shell
+dokku run appname bundle exec rake db:migrate
+```
+
+#### Redis
+
+Create your Redis container and link the app to the container. The should set a ``REDIS_URL`` environment variable as an application environment variable:
+
+```shell
+dokku redis:create containername
+dokku redis:link containername appname
+```
+
+If you run into issues (like I did) with the Redis plugin not setting the ``REDIS_URL`` environment variable, you can do it manually:
+
+
+```shell
+dokku redis:info containername
+
+       Host: 172.23.0.13
+       Public port: 43191
 
 ```
-cd /var/lib/dokku/plugins
-sudo git clone https://github.com/rlaneve/dokku-link.git link
+
+Copy the Host IP address and append the standard 6379 port for Redis. Set the ``REDIS_URL`` environment variable for your app:
+
+```shell
+dokku config:set appname REDIS_URL=redis://172.23.0.13:6379
 ```
 
-Followed instructions here: https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04
- dd if=/dev/zero of=/swapfile bs=1024 count=1024000
- mkswap /swapfile
- swapon /swapfile
+#### Elasticsearch
 
- cd ~/dokku
- git pull origin master
- make install
- docker pull progrium/buildstep:latest
+Create your Elasticsearch container and link the app to the container. The should set a ``ELASTICSEARCH_URL`` environment variable as an application environment variable:
 
+```shell
+dokku elasticsearch:create containername
+dokku elasticsearch:link containername appname
+```
 
- cd /var/lib/dokku/plugins
- git clone https://github.com/Kloadut/dokku-pg-plugin postgresql
- git clone https://github.com/luxifer/dokku-redis-plugin redis
- git clone https://github.com/bigboxsoftware/dokku-sidekiq sidekiq
- git clone https://github.com/rlaneve/dokku-link.git link
- git clone https://github.com/jlachowski/dokku-memcached-plugin memcached
- git clone https://github.com/jezdez/dokku-elasticsearch-plugin elasticsearch
-
- dokku postgresql:create sport
- dokku postgresql:link sport sport
- dokku redis:create sport
- dokku memcached:create sport
- dokku elasticsearch:create sport
+Like Redis, if you run into issues the ``ELASTICSEARCH_URL`` environment variable not being set, you can do it manually:
 
 
- Client: git push dokku strukturedkaos/dokku:master
+```shell
+dokku elasticsearch:info containername
 
-Server:
-dokku run sport bundle exec rake db:migrate
-dokku sidekiq:activate sport
-dokku release sport
-dokku deploy sport
+       Host: 172.19.0.21
+       Private ports: 9200, 9300
 
-FINAL FIX: DISABLED SSL WITH CONFIG.FORCE_SSL = FALSE
+```
 
-Restore database:
+Copy the Host IP address and append the standard 9200 port for Elasticsearch. Set the ``ELASTICSEARCH_URL`` environment variable for your app:
 
-  heroku maintenance:on --remote production
+```shell
+dokku config:set appname ELASTICSEARCH_URL=172.19.0.21:9200
+```
 
-  heroku pgbackups:capture --expire --remote production
+#### Memcached
 
-  heroku pgbackups:url --remote production
+Setting up Memcached was a bit different for me since I had to setup the app to use a ``MEMCACHED_URL`` environment variable.
 
- curl -o latest.dump "https://s3.amazonaws.com/hkpgbackups/app4637091@heroku.com/b905.dump?AWSAccessKeyId=AKIAJSCBEZJRDOTGNGZQ&Expires=1416175251&Signature=NKV8WAo23fmGmjue3YMKN56Y8QQ%3D"
+```shell
+dokku memcached:create containername
+dokku memcached:info containername
 
- pg_restore latest.dump > latest.sql
+       Host: 172.17.1.3
+       Gateway: 172.17.32.1
+       Secret port: 11211
+```
 
- dokku postgresql:restore sport < latest.sql
+Set the ``MEMCACHED_URL`` environment variable:
 
-Set up memcached:
+```shell
+dokku config:set appname MEMCACHED_URL=172.17.1.3:11211
+```
 
-Run dokku memcached:info sport to grab Host IP address and port.
-dokku config:set sport MEMCACHED_URL=172.17.0.13:11211
+Update the Rails app's production configuration to use the ``MEMCACHED_URL`` environment variable:
 
-Update production.rb to use MEMCACHED_URL environment variable`
+```ruby
+# config/environments/production.rb
 
-Restore redis backup from Heroku:
+config.action_dispatch.rack_cache = {
+  :metastore    => Dalli::Client.new(ENV['MEMCACHED_URL']),
+  :entitystore  => 'file:tmp/cache/rack/body',
+  :allow_reload => false
+}
 
-Download backup from Redis-to-go
+config.cache_store = :dalli_store, ENV['MEMCACHED_URL']
+```
 
-redis-cli -h ip < yourdump.rdb
+#### Sidekiq
 
-Set up Elasticsearch:
+Sidekiq was the easiest to setup:
 
-Run ``dokku elasticsearch:info sport`` to grab Host IP address and port.
-dokku config:set sport ELASTICSEARCH_URL=172.17.0.14:9200
+```shell
+dokku sidekiq:activate appname
+```
 
-SSL:
+#### Redeploy the App
 
-scp server.crt root@synappsdigital.com:/home/dokku/sport/tls
-scp server.key root@synappsdigital.com:/home/dokku/sport/tls
+If you've made it this far, then you are getting close! If you've made any changes to your app, make sure to push it again:
 
-Issues:
+```shell
+git push dokku master
+```
 
-Ran into SSL issue - had to edit nginx.conf to include sport.bodybossfitness.com domain. Then reloaded nginx with ``nginx -s reload``
+If you have not made changes, just release and re-deploy the app:
 
-Scheduled jobs:
-Gem 'clockwork'
-Mixed with [dokku-logging-supervisord](https://github.com/sehrope/dokku-logging-supervisord)
+```shell
+dokku release appname
+dokku deploy appname
+```
 
-Resources:
-Deploy a Rails and PostgreSQL app to Dokku: http://dev.housetrip.com/2014/07/06/deploy-rails-and-postgresql-app-to-dokku/
-Dokku + DigitalOcean = Your very own, cheap, Heroku clone!: http://reallybusywizards.com/dokku-digitalocean-your-very-own-cheap-heroku-clone/
-My blog's tech stack: Pelican powered, Dokku deployed: https://launchbylunch.com/posts/2014/Jan/23/blog-tech-stack/#ssl
+You should be able to access your app via the URL provided by Dokku - http://appname.yourdomain.com.
+
+In my next post, I'll show you how to setup SSL/TLS and migrate your data from Heroku to your brand new Dokku-deployed DigitalOcean-powered app!
