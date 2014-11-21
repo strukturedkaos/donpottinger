@@ -9,4 +9,4 @@ The intersection between technology and common sense - go for the simple solutio
 
 My wife took a more maternal and natural approach. She soothed him with song, held and rocked him for hours, and reassured him with her tender touch. It was exhausting work, but it was exactly what he needed. Eventually, the baby would learn how to self-soothe, but until then this manual process She taught me an important lesson - it can take the most time and effort to arrive to the simplest solution.
 
-Technology can be ancillary, a mere side dish to a more simple solution. Finding that simplicity can be more time intensive and physically draining. But it may just be the key to creating a more holistic solution that stands the test of time.
+Technology can be ancillary, a mere side dish to a more simple solution. Finding that simplicity can take more time, but it may just be the key to creating a more holistic solution that pays off in the long run.
