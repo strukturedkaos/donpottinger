@@ -19,7 +19,7 @@ The time had come to say good-bye to Heroku. We weren't actively developing new 
 
 Moving to a cheaper cloud hosting service made sense, and I thought it would be a great opportunity to give [DigitalOcean](https://www.digitalocean.com/) a try. They offer plans that are extremely affordable at $5 / mo, and it's super easy to set up.
 
-Now all I needed was a was an easy way to deploy the app. Enter [Dokku](https://github.com/progrium/dokku). I wanted a Heroku-like experience. Dokku's describes itself as a "Docker powered mini-Heroku in around 100 lines of Bash", and for the most part, it delivers. It is still rough around the edges in some areas, and I definitely felt the pain of those edges.
+Now all I needed was a was an easy way to deploy the app. I wanted a Heroku-like experience. Enter [Dokku](https://github.com/progrium/dokku). Dokku's describes itself as a "Docker powered mini-Heroku in around 100 lines of Bash", and for the most part, it delivers. It is still rough around the edges in some areas, and I definitely felt the pain of those edges.
 
 Below is a walkthrough how I made the switch. I've included the errors/issues that I ran into and solutions in case you run into similar issues.
 
