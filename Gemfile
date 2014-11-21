@@ -7,6 +7,10 @@ gem "middleman-blog"
 gem "middleman-sync"
 gem 'middleman-dotenv'
 
+# Code syntax highlighting
+gem "middleman-syntax"
+gem 'redcarpet'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
