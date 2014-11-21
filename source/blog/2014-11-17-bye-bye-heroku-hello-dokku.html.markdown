@@ -5,7 +5,7 @@ tags: Dokku, Heroku, DigitalOcean
 published: true
 ---
 
-Building a web app? It's so easy to deploy using [Heroku](https://www.heroku.com/). Saving time and effort by using Heroku, a cloud platform as a service (PaaS), allowed us to focus our time and energy on building the product. Heroku had been good to us, but we were spending about $150 / mo using about 4 web dynos and the following add-ons:
+[Heroku](https://www.heroku.com/), a cloud platform as a service (PaaS), makes it so easy deploy a web app. For Body Boss, our SaaS product built with Ruby on Rails, Heroku allowed us to focus on building the product, not on DevOps. The only downside for us was that Heroku is expensive as you scale. We were spending about $150 / mo using about 4 web dynos and the following add-ons:
 
  * [Heroku Postgres - Standard 0 Plan](https://addons.heroku.com/heroku-postgresql#standard-0)
  * [Bonsai Elasticsearch - Staging Plan at $10 / mo](https://addons.heroku.com/bonsai#staging)
@@ -15,13 +15,13 @@ Building a web app? It's so easy to deploy using [Heroku](https://www.heroku.com
 
 Also, the app uses [Sidekiq](https://github.com/mperham/sidekiq) for processing background jobs.
 
-The time had come to say good-bye to Heroku. We weren't actively developing new features or pursuing new customers, so minizing costs became a priority.
+The time had come to say good-bye to Heroku. We weren't actively developing new features or pursuing new customers, so minimizing costs became a priority.
 
 Moving to a cheaper cloud hosting service made sense, and I thought it would be a great opportunity to give [DigitalOcean](https://www.digitalocean.com/) a try. They offer plans that are extremely affordable at $5 / mo, and it's super easy to set up.
 
-Now all I needed was a was an easy way to deploy the app. [Dokku](https://github.com/progrium/dokku). Dokku's describes itself as a "Docker powered mini-Heroku in around 100 lines of Bash". It delivers for the most part. It is still rough around the edges in some areas. I felt the pain of these edges when I ran into a few issues.
+Now all I needed was a was an easy way to deploy the app. Enter [Dokku](https://github.com/progrium/dokku). I wanted a Heroku-like experience. Dokku's describes itself as a "Docker powered mini-Heroku in around 100 lines of Bash", and for the most part, it delivers. It is still rough around the edges in some areas, and I definitely felt the pain of those edges.
 
-Below is a walkthrough how I made the switch, I've included the errors/issues that I ran to and solutions in case you run into similar issues.
+Below is a walkthrough how I made the switch. I've included the errors/issues that I ran into and solutions in case you run into similar issues.
 
 ### Register Domain and Set Nameservers
 
@@ -57,13 +57,13 @@ git pull origin master
 make install
 ```
 
-Dokku uses Buildstep to build applications using Heroku's buildpacks. Update to the latest supported buildpacks to avoid any build errors when deploying:
+Dokku uses Buildstep to build applications using Heroku's buildpacks. To avoid any build errors when deploying, update Buildstep to use the supported buildpacks:
 
 ```shell
 docker pull progrium/buildstep:latest
 ```
 
-I ran into out of memory errors when deploying app. To avoid this, add swap space to your server. I followed the instructions [here](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04). Here are the basic steps:
+One of the first issues that I ran into was "out of memory" errors when installing gems during the app deployment. To avoid this, add swap space to your server. I followed the instructions [here](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04). Here are the basic steps:
 
 ```shell
 dd if=/dev/zero of=/swapfile bs=1024 count=1024000
