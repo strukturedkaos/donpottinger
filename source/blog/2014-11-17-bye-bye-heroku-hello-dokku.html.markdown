@@ -1,7 +1,7 @@
 ---
-title: Bye Bye Heroku, Hello Dokku
+title: "Bye Bye Heroku, Hello Dokku: Migrating a Rails App from Heroku to Dokku (Part 1)"
 date: November 17, 2014
-tags: Dokku, Heroku, DigitalOcean
+tags: Dokku, Heroku, DigitalOcean, Postgres, Redis, Elasticsearch, SSL, Rails
 published: true
 ---
 
