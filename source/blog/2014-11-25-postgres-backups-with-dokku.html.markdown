@@ -1,7 +1,7 @@
 ---
 title: Cron Job for Postgres Backups with Dokku
 date: November 25, 2014
-tags:
+tags: Dokku, Heroku, DigitalOcean, Postgres, Backup data, Scripting
 published: true
 ---
 
@@ -9,7 +9,7 @@ Found [a script](https://gist.github.com/dommmel/f79d4d648517ef015682) that back
 
 _Note: This script uses the [Dokku PG plugin](https://github.com/Kloadut/dokku-pg-plugin)._
 
-Contents of the script (dokku-pg-backup.sh):
+Contents of the script (dokku-pg-backup):
 
 ```shell
 #! /bin/bash
@@ -35,10 +35,12 @@ fi
 You can call the script for the app:
 
 ```shell
-./dokku-pg-backup.sh appname
+./dokku-pg-backup appname
 ```
 
 To perform a daily backup, I placed the script in the ``/etc/cron.daily``.
+
+_Note: I'm using Ubuntu, and per the [CronHowto docs](https://help.ubuntu.com/community/CronHowto), the script file cannot will not accept a file name containing a period. The cron job will silently fail._
 
 [My fork of the gist](https://gist.github.com/strukturedkaos/09315ff2d70eaf294eae).
 
