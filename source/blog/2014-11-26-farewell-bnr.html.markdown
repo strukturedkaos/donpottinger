@@ -33,4 +33,4 @@ I donned many hats during my time at BNR. I was a...
 
 BNR was the best place I've ever worked. By far. It's not even close. I worked with some of the most brilliant, most hardworking and kindest Nerds. I've made life long friends. I'm going to miss them dearly.
 
-That's why it's with mixed emotions that I bid farewell to The Ranch. I depart to undertake a new challenge at [Kevy](http://kevy.com) with a confidence instilled in large part by my time at BNR. I'm not an impostor anymore. Thank you, Big Nerd Ranch.
+That's why it's with mixed emotions that I bid farewell to The Ranch. I depart to undertake a new challenge at [Kevy](http://kevy.com) with a confidence instilled, in large part, by my time at BNR. I'm not an impostor anymore. Thank you, Big Nerd Ranch.
