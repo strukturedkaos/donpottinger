@@ -40,7 +40,7 @@ You can call the script for the app:
 
 To perform a daily backup, I placed the script in the ``/etc/cron.daily``.
 
-_Note: I'm using Ubuntu, and per the [CronHowto docs](https://help.ubuntu.com/community/CronHowto), the script file cannot will not accept a file name containing a period. The cron job will silently fail._
+_Note: I'm using Ubuntu, and per the [CronHowto docs](https://help.ubuntu.com/community/CronHowto), the script file cannot not accept a file name containing a period. The cron job will silently fail._
 
 [My fork of the gist](https://gist.github.com/strukturedkaos/09315ff2d70eaf294eae).
 
