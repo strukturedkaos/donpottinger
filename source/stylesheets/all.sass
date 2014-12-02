@@ -1,3 +1,5 @@
+@import "media-queries"
+
 *
   box-sizing: border-box
 
@@ -239,7 +241,9 @@ img
         color: rgb( 76, 94, 100 )
         font-weight: bold
         padding: 30px 0
+        padding-right: 80px
         position: relative
+        line-height: 1.4
 
         &:after
           content: ""
@@ -369,3 +373,47 @@ img
         a
           padding-left: 56px
           position: relative
+
+
+@include max-screen(768px)
+  body
+    // padding: 0 20px 0 100px
+    padding-left: 100px
+    padding-right: 160px
+
+  .logo
+    background-size: 20px 18px
+    height: 50px
+    width: 50px
+    top: 28px
+    left: 24px
+
+  .about
+    width: 160px
+
+  .main-content
+    &.archive
+      h1
+        margin-top: 28px
+
+      ul
+        li a
+          font-size: 18px
+          padding: 15px 0
+          padding-right: 50px
+
+          &:after
+            height: 26px
+            width: 26px
+            background-size: 26px 26px
+            right: -40px
+            margin-top: -14px
+
+          &:hover
+            &:after
+              right: 10px
+
+    &.post
+      a.view-archive
+        h1
+          margin-top: 27px
