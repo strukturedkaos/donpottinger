@@ -11,14 +11,14 @@ It was April of 2012 when [Charles Brian Quinn](http://seebq.com), CEO of BNR (f
 
 <table class="image">
 <caption align="bottom">A very green software engineer aka deer in headlights</caption>
-<tr><td><img src="/blog/2014/11/26/farewell-bnr/don-web.jpg" width="300px" height="300px" alt="A very green software engineer aka deer in headlights"/></td></tr>
+<tr><td><img src="/blog/2014/11/26/farewell-bnr/don-web.jpg" height="300px" alt="A very green software engineer aka deer in headlights" style="width:100%;max-width:300px;"/></td></tr>
 </table>
 
 When I first started at BNR, I had a serious case of impostor syndrome. I felt that I didn't belong amongst such talented and smart software engineers, and it was only a matter of time before I would be exposed. I worked hard, but it's safe to say that I wouldn't have succeeded without the support of my fellow Nerds.
 
 <table class="image">
 <caption align="bottom">My Nerd page preserved for posterity's sake</caption>
-<tr><td><img src="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png" width="539px" height="404px" class="centered" alt="My Nerd page preserved for posterity's sake"/></td></tr>
+<tr><td><a href="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png"><img src="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png" height="404px" class="centered" alt="My Nerd page preserved for posterity's sake" style="width:77%;max-width:539px;"/></a></td></tr>
 </table>
 
 I learned so much from my teammates. Helping each other grow and sharing knowledge was ingrained in BNR's culture. They paired with me, code reviewed me, and coached me. They taught me that software engineers are comfortable being uncomfortable because we are always learning. I transformed from being someone that hacked things together to a craftsman that took pride in building well-designed software.
