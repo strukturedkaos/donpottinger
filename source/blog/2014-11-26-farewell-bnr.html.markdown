@@ -44,8 +44,9 @@ I donned many hats during my time at BNR. I was a...
   * __tech sales engineer__ - estimating projects and helping potential clients understand the technical requirements of their project.
   * __backup dancer__ - featuring in my first (and probably last) music video.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/xk1VWhToP5w" frameborder="0" allowfullscreen></iframe>
-
+<table class="image">
+<tr><td><iframe width="560" height="315" src="//www.youtube.com/embed/xk1VWhToP5w" frameborder="0" allowfullscreen></iframe></td></tr>
+</table>
 BNR was the best place I've ever worked. By far. It's not even close. I worked with some of the most brilliant, most hardworking and kindest Nerds. As you can see in the above video, we had a lot of fun too. We would go from seriously discussing a software design pattern to posting hilarious GIFs of cats in our company chatroom to putting on silly masks in a team Google+ Hangout.
 
 <table class="image">
