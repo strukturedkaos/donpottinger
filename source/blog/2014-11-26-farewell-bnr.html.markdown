@@ -2,7 +2,7 @@
 title: Farewell Big Nerd Ranch
 date: November 26, 2014
 tags:
-published: true
+published: false
 ---
 
 Today is my last day at [Big Nerd Ranch (BNR)](http://www.bignerdranch.com).
