@@ -1,3 +1,5 @@
+@import "media-queries"
+
 *
   box-sizing: border-box
 
@@ -6,6 +8,9 @@ body
   background: #e2eaed
   padding: 0 200px 0 180px
   font-family: 'Merriweather', serif
+
+  &.about-open
+    overflow: hidden
 
 ul
   list-style: none
@@ -49,44 +54,42 @@ img
   top: 0
   right: 0
 
-  a.about-link
-    position: relative
-    margin-top: 35px
-    text-decoration: none
-
-    h1
-      font-size: 16px
-      font-family: 'Exo 2', sans-serif
-      color: rgba( 255, 255, 255, .45 )
-      font-weight: bold
-      text-transform: uppercase
-      margin-top: 10px
-      padding-left: 80px
-      padding-top: 30px
-
-      &:before
-        content: ""
-        background: url(../images/left-arrow-white.png) no-repeat center bottom
-        opacity: .4
-        height: 37px
-        width: 37px
-        display: block
-        background-size: 37px 37px
-        position: absolute
-        left: 25px
-        top: 50%
-
 
   .about-inner
     background: #3e9ac7 url(../images/don-sidebar.png) no-repeat center bottom
     background-blend-mode: soft-light
     background-size: cover
-    background-position: right 24px center
-    margin-top: 112px
+    background-position: right 24px bottom -150px
     width: 100%
     height: 100%
     overflow: hidden
     position: relative
+
+    a.about-link
+      position: absolute
+      text-decoration: none
+
+      h1
+        font-size: 16px
+        font-family: 'Exo 2', sans-serif
+        color: rgba( 255, 255, 255, .45 )
+        font-weight: bold
+        text-transform: uppercase
+        margin-top: 10px
+        padding-left: 80px
+        padding-top: 30px
+
+        &:before
+          content: ""
+          background: url(../images/left-arrow-white.png) no-repeat center bottom
+          opacity: .4
+          height: 37px
+          width: 37px
+          display: block
+          background-size: 37px 37px
+          position: absolute
+          left: 25px
+          top: 50%
 
 .about-overlay
   position: fixed
@@ -127,7 +130,9 @@ img
     img.colored-don
       position: absolute
       left: 30px
-      bottom: -90px
+      bottom: -108px
+      max-width: 300px
+      width: 40%
 
     .about-close
       position: absolute
@@ -178,13 +183,6 @@ img
           transform: rotate(-45deg)
           -webkit-transform: rotate(-45deg)
 
-    .about-social-icons
-      padding: 40px 50px 0 0px
-
-      a
-        margin-right: 10px
-        color: #66777e
-
     .about-text
       padding: 30px 50px 0 0px
       overflow-y: scroll
@@ -193,6 +191,13 @@ img
       font-family: "Myriad Pro"
       color: rgb(76, 94, 100)
       line-height: 1.563
+
+      .about-social-icons
+        padding-bottom: 15px
+
+        a
+          margin-right: 10px
+          color: #66777e
 
       h3
         font-size: 16px
@@ -238,7 +243,9 @@ img
         color: rgb( 76, 94, 100 )
         font-weight: bold
         padding: 30px 0
+        padding-right: 80px
         position: relative
+        line-height: 1.4
 
         &:after
           content: ""
@@ -368,3 +375,47 @@ img
         a
           padding-left: 56px
           position: relative
+
+
+@include max-screen(768px)
+  body
+    // padding: 0 20px 0 100px
+    padding-left: 100px
+    padding-right: 160px
+
+  .logo
+    background-size: 20px 18px
+    height: 50px
+    width: 50px
+    top: 28px
+    left: 24px
+
+  .about
+    width: 160px
+
+  .main-content
+    &.archive
+      h1
+        margin-top: 28px
+
+      ul
+        li a
+          font-size: 18px
+          padding: 15px 0
+          padding-right: 50px
+
+          &:after
+            height: 26px
+            width: 26px
+            background-size: 26px 26px
+            right: -40px
+            margin-top: -14px
+
+          &:hover
+            &:after
+              right: 10px
+
+    &.post
+      a.view-archive
+        h1
+          margin-top: 27px
