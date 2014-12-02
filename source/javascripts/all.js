@@ -2,6 +2,7 @@
 
 var toggleAbout = function(ev) {
   $('.about-overlay').toggleClass('open');
+  $('body').toggleClass('about-open');
 };
 
 $(document).ready(function(){
