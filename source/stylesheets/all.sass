@@ -59,7 +59,7 @@ img
     background: #3e9ac7 url(../images/don-sidebar.png) no-repeat center bottom
     background-blend-mode: soft-light
     background-size: cover
-    background-position: right 24px bottom -150px
+    background-position: right -2px bottom -150px
     width: 100%
     height: 100%
     overflow: hidden
@@ -123,9 +123,20 @@ img
       color: rgb( 76, 94, 100 )
 
   .about-content
-    padding-left: 340px
+    padding-left: 240px
     position: relative
     height: 100%
+
+    .about-background
+      background: url(../images/don.png) no-repeat center bottom
+      background-size: cover
+      background-position: right -2px bottom -150px
+      width: 200px
+      height: 100%
+      overflow: hidden
+      position: absolute
+      top: 0
+      left: 0
 
     img.colored-don
       position: absolute
@@ -185,7 +196,7 @@ img
           -webkit-transform: rotate(-45deg)
 
     .about-text
-      padding: 30px 50px 0 0px
+      padding: 30px 35px 0 0px
       overflow-y: scroll
       height: 100%
       font-size: 16px
@@ -206,11 +217,14 @@ img
         color: rgb(146, 159, 164)
         font-weight: bold
         text-transform: uppercase
+        margin-top: 30px
 
       ul
         &.cv-so-far, &.facts
           list-style-type: disc
           list-style-position: inside
+          padding-left: 12px
+          text-indent: -12px
 
         &.recent-projects
           li a
