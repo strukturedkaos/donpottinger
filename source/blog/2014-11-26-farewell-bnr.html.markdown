@@ -17,7 +17,7 @@ Our side project ended up growing into a full-fledged startup called [Body Boss]
 
 <table class="image">
 <caption align="bottom">The Body Boss team</caption>
-<tr><td><img src="//scontent-a-atl.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/227040_10100391931348359_374835977_n.jpg?oh=a916feb27b59014954a83bad00bae2fe&oe=550974CC" height="509px" alt="A very green software engineer aka deer in headlights" style="width:100%;max-width:509px;"/></td></tr>
+<tr><td><img src="//scontent-a-atl.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/227040_10100391931348359_374835977_n.jpg?oh=a916feb27b59014954a83bad00bae2fe&oe=550974CC" height="509px" alt="The Body Boss team" style="width:100%;max-width:509px;"/></td></tr>
 </table>
 
 It was March of 2012 when [Charles Brian Quinn](http://seebq.com), CEO of BNR (formerly Highgroove Studios), took a chance that "Consultant Don" could also become "Lead Software Engineer Don" and "Team Manager Don". Big Nerd Ranch offered me a bridge between my 3 worlds - consulting, entrepreneurship and software development. I would build products for clients, and a lot of my clients happened to be startups. Furthermore, I'd be working in a Results-Only Work Environment (ROWE™) meaning that I could work wherever and whenever I wanted as long as I met my results. No more 9 to 5. No more sitting in an office unless I wanted to. I was absolutely thrilled for this amazing opportunity and also terrified because I had no idea what being a professional software engineer meant.
@@ -25,8 +25,8 @@ It was March of 2012 when [Charles Brian Quinn](http://seebq.com), CEO of BNR (f
 When I first started at BNR, I had a serious case of impostor syndrome. Could you blame me? Up to this point, my only serious coding experience was on Body Boss. Now I was surrounded by amazingly talented and smart software engineers. I was certain that it was was only a matter of time before I would be exposed. Fortunately, my new coworkers were not the types to exploit a very green engineer. In fact, they made a concerted effort to help me become a better software engineer.
 
 <table class="image">
-<caption align="bottom">A very green software engineer</caption>
-<tr><td><img src="/blog/2014/11/26/farewell-bnr/don-web.jpg" alt="A very green software engineer" style="width:100%;max-width:300px;"/></td></tr>
+<caption align="bottom">My Highgroove Studios website photo - A very green software engineer aka deer in headlights</caption>
+<tr><td><img src="/blog/2014/11/26/farewell-bnr/don-web.jpg" alt="My Highgroove Studios website photo - A very green software engineer aka deer in headlights" style="width:100%;max-width:300px;"/></td></tr>
 </table>
 
 Taking the time to help each other grow was ingrained in BNR's culture. My coworkers patiently and diligently coached me, pair-programmed with me, and code reviewed me. They taught me that software engineers are comfortable being uncomfortable because we are always asking questions and, as a result, always learning. With their help, I transformed from being someone that hacked things together to a craftsman that took pride in building well-designed software.
