@@ -33,7 +33,7 @@ Taking the time to help each other grow was ingrained in BNR's culture. My cowor
 
 <table class="image">
 <caption align="bottom">My Nerd page preserved for posterity's sake</caption>
-<tr><td><a href="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png"><img src="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png" height="404px" class="centered" alt="My Nerd page preserved for posterity's sake" style="width:77%;max-width:539px;"/></a></td></tr>
+<tr><td><a href="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png"><img src="https://www.evernote.com/shard/s263/sh/9c1dd6e1-a7cc-4578-a671-10c1a9ecb398/82bca6be38d7049fd27bacf848885d3b/deep/0/Backend-Web-Team-Manager---Big-Nerd-Ranch.png" class="centered" alt="My Nerd page preserved for posterity's sake" style="width:77%;max-width:539px;"/></a></td></tr>
 </table>
 
 I donned many hats during my time at BNR. I was a...
