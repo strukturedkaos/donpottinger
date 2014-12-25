@@ -112,6 +112,8 @@ This is random, but I grew my hair out to previously unforeseen lengths this yea
 
 My team won the ADASL league championship for the first time in an unclimatic finish. Our last game got cancelled because our opponent didn't even want to play us. We were just that good. We even played a semi-pro team, and we gave those 19 year olds a good run for their money. To be honest, even with all the success, I didn't enjoy the season very much. The extra burden of managing the team took a lot of the fun out of playing. Added in being perpetually sleep-deprived (because baby), and all of those factors took a toll on me. I was extremely stressed. I found myself losing my temper quickly during games. I would retaliate when opponents would foul me, and lash out if they said anything to me. I was ashamed of myself. So much so, I would come home to tell Katerina about my toddler tantrums just so she could scold me. Obviously I was burned out, and I gave serious thought to hanging up my boots.
 
+![](https://farm9.staticflickr.com/8661/16077029696_829c48a493_c.jpg)
+
 After the season ended, I officially passed the managerial duties off to the younger guys. I toyed with the idea of playing in the upcoming season, but I never committed, and I'm glad that I didn't. Every Sunday for the past 7 years, ADASL consumed 4 hours of my day. It was no longer worth it. I'm happy that I've taken a break, a leave of absence, retired from, or whatever I call it. I absolutely love that I have my Sundays back to spend with my family. It's time for the next generation of Pottinger's to pick up the soccer mantle.
 
 ![](https://farm9.staticflickr.com/8604/15912637949_1e39c9e3fb_c.jpg)
@@ -222,7 +224,7 @@ Based on my experience, companies big and small should completely revamp how the
 
 ### Body Boss
 
-![](http://media.tumblr.com/493d34d752bced21daecc7392c102bd7/tumblr_inline_n1k43r4Fet1rhqctc.png)
+![](https://farm8.staticflickr.com/7476/15915456568_130ba02c8c_c.jpg)
 
 I can't tell you how many times I've had to answer this question:
 
@@ -241,6 +243,8 @@ Here is an abbreviated Body Boss timeline for the past year:
 * We even get the occasional new sign-up. Existing customers are also renewing their subscriptions.
 * I lowered our costs by migrating the app from Heroku to [Digital Ocean + Dokku (read more about it)](/blog/2014-11-17-bye-bye-heroku-hello-dokku.html).
 * We've entertained a few offers to either license the code or sell the whole app.
+
+![](https://farm9.staticflickr.com/8665/15915581600_2c15972412_c.jpg)
 
 All in all, Body Boss has been a great learning experience, and we still toy with the idea of resurrecting our efforts to take over the fitness world. Sadly, our competitors still offers inferior products. Who knows what will happen?
 
