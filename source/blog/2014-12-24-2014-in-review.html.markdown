@@ -146,14 +146,14 @@ Neither opportunity really enticed me. In fact, my experience with these big tec
     <tr>
       <td>Google</td>
       <td>Software Engineer</td>
-      <th>$1?0k</th>
-      <th>Final round of interviews at Google Headquarters in Mountain View</th>
+      <td>$1?0k</td>
+      <td>Final round of interviews at Google Headquarters in Mountain View</td>
     </tr>
     <tr>
       <td>Facebook</td>
       <td>Software Engineer</td>
-      <th>$1?0k</th>
-      <th>First round interviews.</th>
+      <td>$1?0k</td>
+      <td>First round interviews.</td>
     </tr>
   </tbody>
 </table>
@@ -175,8 +175,8 @@ Boy, do I have some stories to tell about some of my interview experiences. Well
     <tr>
       <td>Startup #1</td>
       <td>Lead Engineer / CTO</td>
-      <th>$100k</th>
-      <th>4-6%</th>
+      <td>$100k</td>
+      <td>4-6%</td>
       <th>Final round of interviews</th>
     </tr>
     <tr>
@@ -207,20 +207,20 @@ The following 2 companies made compelling offers, but for various reasons negoti
     <tr>
       <td>Startup #3</td>
       <td>Senior Software Engineer</td>
-      <th>$95k</th>
-      <th>.1-.5%</th>
-      <th>Turned down verbal offer.</th>
+      <td>$95k</td>
+      <td>.1-.5%</td>
+      <td>Turned down verbal offer.</td>
     <tr>
       <td>Startup #4</td>
       <td>Senior Software Engineer</td>
-      <th>$90k</th>
-      <th>.1-.2%</th>
-      <th>Received formal written offer. Negotiations broke down.</th>
+      <td>$90k</td>
+      <td>.1-.2%</td>
+      <td>Received formal written offer. Negotiations broke down.</td>
     </tr>
   </tbody>
 </table>
 
-Based on my experience, companies big and small should completely revamp how they interviewing and rate candidates. 
+Based on my experience, companies big and small should completely revamp how they interview and rate candidates.
 
 ### Body Boss
 
