@@ -1,0 +1,271 @@
+---
+title: 2014 In Review
+date: December 24, 2014
+tags: kevy, big nerd ranch, body boss, year in review, business, life, kickdrop
+---
+
+I love reading other people's year in review posts. It's a great way to see what others have been up to, what worked for them, what didn't, and what goals they set for the new year. This review is mostly for my benefit. It's a selfish way to reflect on the year and document it for reference later. There is some personal stuff in here, so don't wonder to yourself, "Did he really mean to share all of this?" The answer is a resounding "Yes!" I've found sharing to not only be caring, but also cathartic.
+
+In fact, I started to write a year in review post last year. Well, "started" is a stretch. I came up with tags / topics that I wanted to dive into:
+
+* fatherhood
+* mobile development
+* growth
+* iphone
+* management
+* startup
+* body boss
+
+I know. Awesome tags. I'll be covering some of the above topics in this year's edition. Let's begin.
+
+## What Went Well
+
+### Travel
+
+Sadly, my first trip of the year was was an unplanned trip to Jamaica due the unexpected passing of my grandmother. She lived a beautiful and long life, and it was a true testament to her legacy that her funeral service ended up being a celebration of her life rather than a solemn gathering. One positive to come out of the sad occassion was that it brought our entire family together for an impromptu reunion.
+
+![](https://farm9.staticflickr.com/8567/16072835216_270bfca5b0_c.jpg)
+
+The addition of a newborn to our family put a hold on any serious travel for the family until the summer. Serious travel is defined by any destination that takes longer than 30 minutes to reach. So when we planned our first trip outside of metro Atlanta, we decided to go big - Jamaica to witness the wedding of one of my best friends. It happened to be my 2nd trip to Jamaica this year.
+
+As a parent, there is nothing scarier than traveling with a crying baby in a flying box with 200 strangers. Thankfully, neither flight was unbearable once we were able to get Damian to fall asleep.
+
+![](https://farm8.staticflickr.com/7540/16094439991_84302c143b_c.jpg)
+
+Taking Damian to the land of my birth was extremely meaningful especially because he got to meet the Jamaican side of his family. We stayed at the Half Moon Bay Resort in Montego Bay, and it was absolutely gorgeous, and as luck would have it, we were just 10 minutes away from my aunt's house. My mom came down for the week too, so we were fortunate to have willing babysitters for Damian.
+
+![](https://farm8.staticflickr.com/7507/16095455221_7507b9c934_c.jpg)
+
+Later in the summer, we got more beach time in Myrtle Beach. Then we witnessed the baptism of one niece and birthday of another in Ohio. In addition, Katerina and I took our first trip away from Damian when we spent a few days in San Francisco. I was there for an interview with Google (more on that later), and we extended it into a perfect little getaway. It was hard, but somehow we survived without Damian.
+
+![](https://farm8.staticflickr.com/7470/16071615176_b76f04e3a7_c.jpg)
+
+Looking back, we ended up taking a bunch more trips than I expected. I look forward to more travel in the coming year. Rumor is that we'll be heading to London and Las Vegas, both for the very first time.
+
+### Family
+
+Adding an infant to the family proved to be a huge challenge. If anyone tells you that sleep deprivation is not torture, then they haven't attempted to sleep train an infant. It only took 9 short months.
+
+![](https://farm8.staticflickr.com/7501/15910169710_d22c5c5f4c_z.jpg)
+
+While were dealing with sleep issues, we also struggled to find a regular caregiver for Damian when Katerina went back to work from maternity leave. For the first 3 months of the year, I ended up taking care of Damian for 3 days per week while still working full-time. Luckily, he wasn't mobile and he took 3 naps during day, but he was still very demanding. We eventually found an amazing nanny, and through trial and error found a great balance of care between Katerina, our nanny and me.
+
+![](https://farm8.staticflickr.com/7558/15476352884_16b779ebda_c.jpg)
+
+I'm still in charge of taking care of Damian until the nanny arrives on Mondays, Thursdays and Fridays. I make him breakfast, feed him, change his diaper, put him in his clothes for the day, play with him, read with him and put him down for his morning nap. I call it _Daddy Daycare_. I take pride in taking care of our little man, and although it has been challenging, I've grown to cherish our mornings together.
+
+![](https://farm8.staticflickr.com/7548/15479023083_8d337ef617_c.jpg)
+
+It goes without saying - I'm so fortunate to have found such a capable and loving partner with whom to raise our son.
+
+### Productivity
+
+The added responsibilities of Damian made free time an extremely scarce resource. I had periods where I would struggle to be productive after taking care of Damian, and it took a lot of effort to get even the simplest tasks done. As a result, I looked for strategies to increase my efficiency / productivity. Below are a few that proved to be effective:
+
+* __Wake Up Early and Make the Bed__ - One practice that proved effective was to wake up a early and immediately complete simple tasks. Things like making the bed, making breakfast for Damian and myself, doing the dishes, and getting dressed all before Damian woke up really helped me start the day off on the right foot.
+* __Keep Track of To-dos__ - Another practice that helped boost my productivity was the use of a [simplified bullet journal](http://www.bulletjournal.com/) to track my everyday uncompleted and completed tasks. I noticed a significant improvement in my productivity with consistent use. After a few months of not keeping track of my to-dos, I'm back to using the journal, and it's reinvigorated me. I plan to use it more regularly in the coming year.
+* __Minimize Context Switching__ - Last but not least, I finally made the switch from using Sublime Text to exclusively using [Vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29) as my text editor. Although there has been an initial dip in my productivity as I fumble around on the keyboard, I've noticed that I'm less prone to context switching. All of my work is now in the terminal, and I absolutely love it. I look forward to becoming a better vimmer with lots of practice and patience.
+
+### Improving Our Home
+
+We've made a concerted effort to improve / update our home. From small things like mounting our TV to keep it away from our inquisitive toddler, to cutting down a massive tree in our front yard, to completely redoing our bathroom (still a work in progress), we've poured a lot money into our home.
+
+![](https://farm8.staticflickr.com/7573/15475792574_cb5d575bfc_z.jpg)
+
+More updates to come next year as we aim to improve the resale value of our little home.
+
+### Consulting and Products
+
+Since my free time is already limited, I only took on a couple, short consulting engagements. My favorite project was helping a startup define and develop version 2 of their product. I mentored a junior developer, and I found it to be so rewarding. I earned $7000 this year versus only $1200 last year, which I thought was pretty good, especially when you consider that I only started consulting at the end of the year. With that said, I doubt that I'll have much time for consulting in the coming year since I just joined an awesome startup (more on that in the next section). Nonetheless, it's good to know that if I were to quit my full-time job, I would be able to find gigs that could pay the bills.
+
+Also, the [admin theme](http://themeforest.net/item/se7en-bootstrap-3-responsive-admin-template/5423243) that I built with a couple friends was still selling even though we launched it in the Fall of 2013. My cut of the earnings was $800 this year, which is what I earned in its first 3 months after launch. We have almost 1000 sales. Pretty cool. One of my goals next year is to launch a new product or productized service that will generate revenue even when I'm not actively working on it.
+
+### Big Nerd Ranch
+
+I would be remiss if I didn't touch on my year at Big Nerd Ranch (BNR). I really developed as a manager and a technical lead this year. For the most part, I juggled both roles effectively.
+
+I spent 6 months on one project where I lead the technical development for a startup. This project had all the tell-tale signs of failure - tight deadlines, an unengaged client, and incomplete requirements. There were moments when I wanted to fire the client, but we somehow found a way to make the project a success through honest communication and a dedicated work effort. We were able to build and launch their MVP to stave off the collapse of their company. More importantly, I was able to build a rapport with the executive leadership, which allowed me to be a true consultant by helping them make strategic decisions.
+
+Although things were going well for me at BNR, I couldn't ignore the nagging urge to pursue a startup.
+
+In the summer, I began actively searching for that perfect startup role. After months of interviewing, I found that there is no perfect role (more on that later). In reality, most opportunities had more cons than pros, especially when compared to [my amazing job at BNR](/blog/2014/11/26/farewell-bnr.html). I'm grateful for the "pickiness" that BNR afforded me. It allowed me to be patient for that awesome startup, Kevy, to come along.
+
+### Joined an Awesome Startup
+
+After months of waiting, turning down offers and being turned down, I was thrilled when an opportunity to join Kevy presented itself. I officially started a couple of weeks ago. The team is led by [David Cummings](http://davidcummings.org), who is a seasoned and very successful entrepreneur. He also happens to own the building that we call our headquarters, [Atlanta Tech Village](http://atlantatechvillage.com). It has been invigorating to be in the epicenter of the startup scene in Atlanta. My team is absolutely a joy to work with, and I have already learned so much in my first couple of weeks. I looking forward to continuing my growth as an entrepreneur in my role at a promising SaaS startup.
+
+### Website and Blog
+
+After years of procrastination, I finally launched my personal website and blog. I couldn't have done it without the amazing design and implementation help of my friend and fellow co-founder of Body Boss, [Andrew Reifman](http://andrewreifman.com). He walked me through how to convert a design in Photoshop into to HTML and CSS, which has always been a weak area for me. I'm forever indebted to him for his help.
+
+When I launched my blog, I pledged to write regular posts. Good writing takes lots of practice. Furthermore, writing engaging content can be arduous. That being said, I've found writing to be extremely therapeutic. I've received overwhelmingly positive responses to my posts, and it pushes me to continue improving my writing and sharing honest and introspective posts. My goal is to write at least one post a week.
+
+### My Hair
+
+This is random, but I grew my hair out to previously unforeseen lengths this year. This new length enabled me to try out some new hairstyles. Here are some that I thought went over well.
+
+![](https://farm8.staticflickr.com/7553/16097309472_ee47efb1ea_z.jpg)
+
+## What Did Not Go Well
+
+### Soccer
+
+My team won the ADASL league championship for the first time in an unclimatic finish. Our last game got cancelled because our opponent didn't even want to play us. We were just that good. We even played a semi-pro team, and we gave those 19 year olds a good run for their money. To be honest, even with all the success, I didn't enjoy the season very much. The extra burden of managing the team took a lot of the fun out of playing. Added in being perpetually sleep-deprived (because baby), and all of those factors took a toll on me. I was extremely stressed. I found myself losing my temper quickly during games. I would retaliate when opponents would foul me, and lash out if they said anything to me. I was ashamed of myself. So much so, I would come home to tell Katerina about my toddler tantrums just so she could scold me. Obviously I was burned out, and I gave serious thought to hanging up my boots.
+
+After the season ended, I officially passed the managerial duties off to the younger guys. I toyed with the idea of playing in the upcoming season, but I never committed, and I'm glad that I didn't. Every Sunday for the past 7 years, ADASL consumed 4 hours of my day. It was no longer worth it. I'm happy that I've taken a break, a leave of absence, retired from, or whatever I call it. I absolutely love that I have my Sundays back to spend with my family. It's time for the next generation of Pottinger's to pick up the soccer mantle.
+
+![](https://farm9.staticflickr.com/8604/15912637949_1e39c9e3fb_c.jpg)
+
+Don't get me wrong. I still have a soccer obsession. I play soccer 2-3 times per week - with Katerina on a co-ed team on Tuesdays, in a men's league on Wednesdays, and pick-up with my soccer mates on Fridays. I've removed the stress and found joy in the game again.
+
+### Fitness
+
+Despite my best intentions, I did not reach nor make any serious fitness goals. Weight training is important to me, but I've found it very difficult to commit the necessary time to workout consistently. My goal for the next year is to incorporate weight training into my fitness regiment at least once per week.
+
+### Interviewing
+
+I interviewed a lot this year. My goal was to become the lead engineer / CTO of a promising startup. Although I primarily focused on startups, I did entertain a couple big companies too. One was Google. The other was Facebook. I didn't get an offer from either, but I learned an immense amount from the experience.
+
+The Google interview experience was amazing, especially since I made it to the final round. They flew me out to Google HQ in Mountain View, CA for a day of 5 technical interviews. It was eye-opening to see their colorful and super-progressive campus. I say campus because the whole place had an innovative / university feel to it. The interviews were intense, and I bombed a few because I didn't take the time to study enough. I was too busy building another startup (more to come on that later).
+
+With Facebook, I didn't make it pass the first round of interviews. That was embarrassing, yet completely expected. I hadn't studied any algorithms or practiced any coding exercises since my preparations for Google months earlier.
+
+Neither opportunity really enticed me. In fact, my experience with these big tech companies only reinforced my desire to be a part of startup.
+
+<table>
+  <thead>
+    <th>Company</th>
+    <th>Position</th>
+    <th>Salary</th>
+    <th>Outcome</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Google</td>
+      <td>Software Engineer</td>
+      <th>$1?0k</th>
+      <th>Final round of interviews at Google Headquarters in Mountain View</th>
+    </tr>
+    <tr>
+      <td>Facebook</td>
+      <td>Software Engineer</td>
+      <th>$1?0k</th>
+      <th>First round interviews.</th>
+    </tr>
+  </tbody>
+</table>
+
+#### So close, but yet so far
+
+Boy, do I have some stories to tell about some of my interview experiences. Well, I've already told one in [my last post on how I didn't become a CTO](/blog/2014/12/19/become-the-cto-of-a-promising-startup.html). I came so close with the following 2 companies:
+
+<table>
+  <thead>
+    <th>Company</th>
+    <th>Position</th>
+    <th>Salary</th>
+    <th>Equity</th>
+    <th>Outcome</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Startup #1</td>
+      <td>Lead Engineer / CTO</td>
+      <th>$100k</th>
+      <th>4-6%</th>
+      <th>Final round of interviews</th>
+    </tr>
+    <tr>
+      <td>Startup #2</td>
+      <td>Backend / Ruby Engineer</td>
+      <td>$90-105k</td>
+      <td>5%</td>
+      <td>Outcome: Final round of interviews.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+#### I received offers from a couple startups not named Kevy.
+
+The following 2 companies made compelling offers, but for various reasons negotiations broke down:
+
+<table>
+  <thead>
+    <th>Company</th>
+    <th>Position</th>
+    <th>Salary</th>
+    <th>Equity</th>
+    <th>Outcome</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Startup #3</td>
+      <td>Senior Software Engineer</td>
+      <th>$95k</th>
+      <th>.1-.5%</th>
+      <th>Turned down verbal offer.</th>
+    <tr>
+      <td>Startup #4</td>
+      <td>Senior Software Engineer</td>
+      <th>$90k</th>
+      <th>.1-.2%</th>
+      <th>Received formal written offer. Negotiations broke down.</th>
+    </tr>
+  </tbody>
+</table>
+
+Based on my experience, companies big and small should completely revamp how they interviewing and rate candidates. 
+
+### Body Boss
+
+![](http://media.tumblr.com/493d34d752bced21daecc7392c102bd7/tumblr_inline_n1k43r4Fet1rhqctc.png)
+
+I can't tell you how many times I've had to answer this question:
+
+> "So what's the deal with Body Boss?"
+
+Here is the deal - Customers still love us, but the market is super niche and still very immature. It proved difficult to convert a high enough percentage of technology-allergic coaches into paying customers. We identified a better market in which to pivot, but ultimately, we decided not to pursue it.
+
+Here is an abbreviated Body Boss timeline for the past year:
+
+* We launched the iPad app in February.
+* We attended the Glazer Clinic in Atlanta and signed up a lot of customers to free trials.
+* We set a deadline of Spring to see a drastic increase in sales.
+* By March, we did not see a sharp enough uptick in conversions of free trials to paid customers.
+* The majority of the team stopped actively working on Body Boss. We halted business development and software development.
+* Daryl and I still actively support our existing customers.
+* We even get the occasional new sign-up. Existing customers are also renewing their subscriptions.
+* I lowered our costs by migrating the app from Heroku to [Digital Ocean + Dokku (read more about it)](/blog/2014-11-17-bye-bye-heroku-hello-dokku.html).
+* We've entertained a few offers to either license the code or sell the whole app.
+
+All in all, Body Boss has been a great learning experience, and we still toy with the idea of resurrecting our efforts to take over the fitness world. Sadly, our competitors still offers inferior products. Who knows what will happen?
+
+### Kickdrop
+
+After Body Boss died down, I made the mistake of jumping head first into another startup called [Kickdrop](http://kickdropshop.com/). My co-founders and I came up with what we thought was a great idea. Our idea seemed to be validated by over 1000 pre-launch signups, [press coverage](http://onepagelove.com/meet-andrew-reifman-the-front-end-developer-behind-kickdrop) and even hitting the [front page of ProductHunt](http://www.producthunt.com/posts/kickdrop).
+
+![](https://farm8.staticflickr.com/7482/15913081597_97950df340_c.jpg)
+
+Unfortunately, our pre-launch hype didn't convert to paying customers post-launch. Within a week of launching, we were already pivoting. We made the mistake of mixing an a la carte marketplace with a SaaS product. This resulted in our customers being extremely confused. Tensions grew between one of the co-founders and me because I was the only co-founder that hadn't quit my full-time job. Despite the fact that I wrote the majority of the code and my best efforts to assuage the fears of that co-founder, the situation only got worse, culminating with my departure from the team. It sucked to basically be forced out of something that I built. However, I understood that the situation was irrevocable. They ended up completely rebuilding the product and relaunching after a month. Things didn't go well with the relaunch, and now everyone is focusing on other projects.
+
+![](https://farm8.staticflickr.com/7485/15911555020_af650026c8_c.jpg)
+
+Funny enough, there have been no hard feelings between the co-founders and me. I'm still really close with one of the co-founders (the previously mentioned Andrew Reifman), and I've even discussed working on other projects with the co-founder that forced me out. I learned a valuable lesson about taking on too many projects.
+
+### Over-committing
+
+If you read my the previous 2 sections, you will have noticed that I have a bad habit of over-committing with my side projects. First Body Boss, then Kickdrop, then, to a lesser extent, managing a competitive soccer team and independent consulting. I take on too many projects. And it really stressed me out, especially when things weren't going as well as I wanted. For the new year, I've committed to better managing not only my time, but also my commitments. I have a big commitment with my new position at Kevy, and I'll be very cautious with adding more commitments to my plate. I know now that, despite my best efforts, I can't be everything to everyone.
+
+### My Hair
+
+On a lighter note, I had some pretty terrible hairstyles. Below is a small sample:
+
+![](https://farm8.staticflickr.com/7461/16098238525_8632e393e6_z.jpg)
+
+## Wrap-up
+
+As I enter the new year, my main goal is to continue optimizing for my family's and my personal happiness. We are super fortunate to live a very comfortable lifestyle where my wife and I both have an amazing work-life balance. My career / entrepreneurial goals are still important, but I won't get caught up in the rat race. Until next year, adieu!
