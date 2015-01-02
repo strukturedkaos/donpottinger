@@ -18,6 +18,9 @@ html
       .post-content
         = yield
 
+        .subscribe
+          = partial "layouts/subscription"
+
         .post-footer.clearfix
           - previous_article = current_article.previous_article
           - if previous_article
