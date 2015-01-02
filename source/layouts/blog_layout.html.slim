@@ -1,17 +1,10 @@
 doctype html
 html
   head
-    meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"
+    = partial "layouts/head"
     title= "#{current_article.data.title} | by @donpottinger"
-    = stylesheet_link_tag "//fonts.googleapis.com/css?family=Exo+2:600|Merriweather:400,700"
-    = stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    = stylesheet_link_tag "normalize", "all", "rouge"
-    = javascript_include_tag "http://code.jquery.com/jquery-1.10.2.min.js"
-    = javascript_include_tag "all"
   body
     a.logo href='/'
-    / share buttons go here
-
     a href='#' class="about-mobile"
       h1 About
 
