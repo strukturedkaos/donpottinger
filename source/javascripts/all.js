@@ -5,8 +5,20 @@ var toggleAbout = function(ev) {
   $('body').toggleClass('about-open');
 };
 
+var showCaptions = function () {
+  var caption;
+  $('img').each(function () {
+    caption = $(this).attr('alt');
+    if (caption !== '')
+      // use .before to insert the caption before the image
+      console.log(caption);
+      $(this).after('<caption>' + caption + '</caption>');
+  });
+}
+
 $(document).ready(function(){
   $(document).on('click', '.about-link', toggleAbout);
   $(document).on('click', '.about-close', toggleAbout);
   $(document).on('click', '.about-mobile', toggleAbout);
+  showCaptions();
 });

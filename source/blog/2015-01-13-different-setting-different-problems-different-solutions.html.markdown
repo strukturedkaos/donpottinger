@@ -12,6 +12,8 @@ Housing is at such a high premium that New Yorkers are so accustomed to living i
 
 For example, my best friend and his wife live in an 700 sq ft apartment in the Upper East side of Manhattan. Their rent is almost double my mortgage for almost half the square footage of my house in Atlanta (note: I live in-town about 10 minutes from downtown Atlanta). While I considered their apartment small for Atlanta, other city dwellers were in awe at the size of their apartment in such a fantastic location.
 
+![Beautiful view of the city from their apartment](https://farm8.staticflickr.com/7527/16084911280_2023f54720_c.jpg)
+
 It's apparent that finding an apartment is much harder problem in New York than in Atlanta. As a result, I can imagine that a real estate app that enables people to easily find and rent apartments from landlords, subleases and roommates would go viral in New York while eliciting a much more tepid response here in Atlanta.
 
 ### Differences in Transportation
@@ -23,6 +25,8 @@ In Atlanta, the immense sprawl of the city coupled with the limitations of publi
 The differences in transportation lead to variations on the same problem. For example, smartphone users everywhere live their life between phone charges. Atlantans spend more time in their car on average, so I posit that the average Atlantan is more likely to own a car charger than a NYC denizen. Conversely, the New Yorker is more likely to carry a phone charger in their purse or bookbag in order to charge their phones while they are out in the city. I noticed a number of people taking advantage of outlets in restaurants and bars in NYC to grab a quick charge. This is extremely rare in Atlanta.
 
 I'm willing to bet that a phone case with a built-in extra battery would be more attractive to everyday New Yorkers than Atlantans.
+
+![Funny enough, my Manhattan hosts had a car](https://farm8.staticflickr.com/7492/16084915040_ecdbb5aa5a_c.jpg)
 
 ### So What?
 
