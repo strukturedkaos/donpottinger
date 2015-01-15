@@ -9,7 +9,8 @@ var showCaptions = function () {
   var caption;
   $('img').each(function () {
     caption = $(this).attr('alt');
-    if (caption !== undefined && caption !== '')
+    figcaption = $(this).next('figcaption');
+    if (figcaption.length === 0 && caption !== undefined && caption !== '')
       // use .before to insert the caption before the image
       $(this).after('<caption>' + caption + '</caption>');
   });
