@@ -21,7 +21,7 @@ At times, this silent battle can feel like it's just in my head. It's hidden in 
 
 As a result, I make a herculean effort to preempt the formation of the assumptions about me, to bend perceptions and to frame my narrative. From the clothes I wear, to how I style my hair, to how often I smile, my entire appearance is carefully crafted to not only be seen, but to leave a positive impression on every person with whom I come in contact.
 
-It's a small attempt to reverse the negative polarity surrounding Black men. That is to burst stereotypes about what an engineer looks. About what an entrepreneur looks like. About what a loving husband and father look like and act like.
+It's a small attempt to reverse the negative polarity surrounding Black men. That is to burst stereotypes about what an engineer looks like. About what an entrepreneur looks like. About what a loving husband and father look like and act like.
 
 My approach to bursting these stereotypes is empathetic. I understand that it's human nature to attempt to classify people in buckets based on their appearance. And since I'm acutely aware of what it feels like to be stereotyped, I try my best to correct myself when I find myself stereotyping others. Sometimes I catch myself. Sometimes I don't.
 
