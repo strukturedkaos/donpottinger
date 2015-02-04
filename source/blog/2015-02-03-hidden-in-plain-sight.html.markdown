@@ -2,7 +2,7 @@
 title: Hidden in Plain Sight
 date: February 3, 2015
 tags: entrepreneurship, race, contextual, korean, stereotypes, prejudices, black
-published: true
+published: false
 ---
 
 I had lunch with Chae. She's a friend, an ex-coworker, and a great lunch buddy. She understands the nuanced balance between actively talking and actively listening. The lunch spot was [Sobban Korean Southern diner](http://www.sobban.com/), fusion cuisine at it's finest. Catching up on each other's lives happened between bites of delicious Chicken Kalguksu, Japche and Korean fried chicken wings. Yum. During our hour-long conversation, we touched on a number of subjects - family, work, and professional development. But, one story stood out.
