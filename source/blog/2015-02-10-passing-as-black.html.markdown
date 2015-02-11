@@ -5,7 +5,7 @@ tags: race, stereotypes, prejudices, black
 published: true
 ---
 
-I had dinner with a group of guys that I've been friends with for over a decade. One of my friends had been reading my blog, and it led to him share a very powerful story about a surreal encounter that he went through recently.
+I had dinner with a group of guys that I've been friends with for over a decade. One of my friends had been reading my blog, and it led him to share a very powerful story about a surreal encounter that he went through recently.
 
 When my friend, let's call him Drew, told me this story, I was shocked. It was a perfect companion to my previous post, [Hidden in Plain Sight](/blog/2015/02/03/hidden-in-plain-sight.html), how we battle stereotypes and perceptions everyday. It's the type of story that you encounter on [NPR's Code Switch](http://www.npr.org/blogs/codeswitch/2014/10/07/354310370/a-chosen-exile-black-people-passing-in-white-america), or read about in the nonfiction book, [*Black Like Me*](http://en.wikipedia.org/wiki/Black_Like_Me). The difference is that all of these stories are set in the distant past. More than 50 years ago. But this happened in 2015. Maybe it's naive of me, but I couldn't believe that an interaction like that could take place in 2015. Here is how it went down...
 
