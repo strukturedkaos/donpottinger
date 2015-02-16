@@ -18,13 +18,13 @@ The answer to this question is not binary, more like 50 shades of grey. Yes, I s
 Back to the question. When my co-worker asked me, "Do you speak Spanish?", I thought about those aforementioned experiences then immediately downplayed my proficiency with the language. I followed up by subtly asking if he needed help with something. It was my sly way of getting more information before committing to anything. He told me that he had scheduled a demo with a very promising prospect in Spain. The difficult part - the prospect only spoke Spanish, so he had been using Google Translate to correspond via email. No one else in the office spoke Spanish, and it was a shot in the dark when he reached out to me. Part of me wanted to tell him that I was the wrong person for the job.
 
 <figure class="image">
-  <iframe src="//giphy.com/embed/AW8mds1w2L2ta" width="480" height="253" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <img src="http://media.giphy.com/media/AW8mds1w2L2ta/giphy.gif" height="253"></img>
 </figure>
 
 To be honest, despite all my experience with the language, I've never felt good enough when it comes to my Spanish skills. I always felt like a big part of me was faking it.
 
 <figure class="image">
-  <iframe src="//giphy.com/embed/ZzESCv4z6iW0E" width="480" height="269" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <img src="http://media.giphy.com/media/ZzESCv4z6iW0E/giphy.gif" height="269"></img>
 </figure>
 
 So, just the mere thought of giving a business demo in Spanish, over the phone no less, had me shaking in my boots. Then I remembered that it had been over a month since my co-worker had started at [Kevy](http://kevy.com) as an account executive. He was working hard, but he was still searching for that elusive first sale. A large percentage of his compensation is based on commission, which something that I didn't have to worry about as an engineer. However, I could sense his growing frustration. I empathized with him.
@@ -32,7 +32,7 @@ So, just the mere thought of giving a business demo in Spanish, over the phone n
 So, I mustered up the courage to serve as the translator. When we got on the call, things started off rocky. I stumbled and fumbled through greetings and introductions. However, as I continued into the walkthrough of the product, I found my groove and became more confident. I remained confident even when I struggled to find the Spanish word for a technical term. I stuck with it when I had to ask the prospect to "Repite, por favor." because his thick *castellano* accent obfuscated his very specific use case questions.
 
 <figure class="image">
-  <iframe src="//giphy.com/embed/AJqjc82n1dDO0" width="480" height="421" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <img src="http://media.giphy.com/media/AJqjc82n1dDO0/giphy.gif" height="421"></img>
 </figure>
 
 Fortunately, the prospect was very friendly and patient, and I had the support of 2 of my co-workers including a fellow engineer with deep knowledge of our product and quick typing skills on Google Translate. Somehow we were able to get through a marathon 2-hour meeting (normally 30 minutes) and answer all of the prospect's questions to his satisfaction.
@@ -42,7 +42,7 @@ At the end of the demo, I thanked the prospect for his patience with "mi españo
 We closed the deal that day. It was my co-worker's first deal, and the largest ever first-time deal for a Kevy account executive. When we received word that the deal was official, my co-worker and I hugged it out. My help meant the world to him.
 
 <figure class="image">
-  <iframe src="//giphy.com/embed/KHAD55rYirYoU" width="480" height="285" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <img src=http://media.giphy.com/media/KHAD55rYirYoU/giphy.gif height="285"></img>
 </figure>
 
 Helping others succeed evokes an indescribable amount of joy for me. He may have gotten the commission, but I feel like I got more out of the deal.
