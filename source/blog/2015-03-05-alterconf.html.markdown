@@ -36,7 +36,7 @@ Walk into any typical tech conference and you'll see a room of [cisgender](http:
 <blockquote class="twitter-tweet" lang="en"><p>A non-traditional tech degree with Michael Westbrooks II <a href="https://twitter.com/hashtag/alterconf?src=hash">#alterconf</a> <a href="http://t.co/dqCRSk5wg1">pic.twitter.com/dqCRSk5wg1</a></p>&mdash; AlterConf Sessions (@AlterConf) <a href="https://twitter.com/AlterConf/status/571724953961283584">February 28, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-**From the motivational** - Michael Westbrooks impassioned plea for non-technical people to take the leap in learning how to code evoked a sense of nostalgia. I vividly remember what it was like when I was just learning how to code and build products. So much so, I offered to mentor him in his journey to become a better software and product developer.
+**From the motivational** - Michael Westbrooks' impassioned plea for non-technical people to take the leap in learning how to code evoked a sense of nostalgia. I vividly remember what it was like when I was just learning how to code and build products. So much so, I offered to mentor him in his journey to become a better software and product developer.
 
 <figure class="image">
   <blockquote class="twitter-tweet" lang="en"><p>&quot;No one grows in a comfort zone.&quot; - <a href="https://twitter.com/juwanplatt">@juwanplatt</a> <a href="https://twitter.com/hashtag/AlterConf?src=hash">#AlterConf</a> <a href="http://t.co/40Bd8zUhvz">pic.twitter.com/40Bd8zUhvz</a></p>&mdash; AlterConf Sessions (@AlterConf) <a href="https://twitter.com/AlterConf/status/571741132872392704">February 28, 2015</a></blockquote>
