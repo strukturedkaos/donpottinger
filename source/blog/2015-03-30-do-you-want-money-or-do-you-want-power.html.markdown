@@ -51,7 +51,7 @@ After a month of heads-down work, we could see the semblance of a minimum viable
 
 In essence, I became a de-facto leader over the course of my few months at Kevy. Although I had been playing the part, I was still nervous about asking my boss for the official title. Outright asking for what I want is not something I grew up doing. However, I've learned the importance of being direct, and Shannon's advice continued to ring in my ears. So, I sent my boss a message via Slack - asking to grab 15 minutes of his time in order to discuss a few things. He responded.
 
-"Sure. I have some time now."
+> Sure. I have some time now.
 
 That response caught me by surprise. I was hoping that he would agree to meet later in the week, which would give me time to come up with a script of what I wanted to say. I had nothing prepared, but in reality, I had been prepping for this conversation since I joined Kevy. We found an empty meeting room, and as I closed the door behind us, I knew that I was ready. Ready to seize the moment. Ready to be assertive. Ready to ask for what I wanted.
 
