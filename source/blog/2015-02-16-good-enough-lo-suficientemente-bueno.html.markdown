@@ -1,7 +1,7 @@
 ---
 title: You Are Good Enough / Eres Lo Suficientemente Bueno
 date: February 16, 2015
-tags:
+tags: entrepreneurship, sales, spanish, motivational, kevy
 published: true
 ---
 
