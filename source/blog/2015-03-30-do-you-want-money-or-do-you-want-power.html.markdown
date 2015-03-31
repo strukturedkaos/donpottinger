@@ -58,3 +58,5 @@ That response caught me by surprise. I was hoping that he would agree to meet la
 That day, I walked out as the new Director of Engineering. However, the title was a mere formality, because like the old adage, “Dress for the job you want, not the job you have”, I had been auditioning for this role for months. Through the turbulence and adversity of our pivot, the opportunity presented itself, and I'm grateful to Shannon for giving me that little push to be more assertive and to ask for what I want.
 
 I have a clearer understanding of what I want now, and this role is a way to leave a positive impact for the many stakeholders in my life. Those I know of, those I don't know yet, and those I'll never meet.
+
+<img src="/blog/2015/03/30/do-you-want-money-or-do-you-want-power/frank_underwood_power.jpg" style="display: none;"/>
