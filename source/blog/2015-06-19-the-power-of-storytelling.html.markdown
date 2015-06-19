@@ -5,7 +5,7 @@ tags: london, storytelling, beefeaters
 published: true
 ---
 
-Ever since I was a child, I've loved listening to a great story told by an enthralling storyteller. On our recent trip to London, I came across one such storyteller. I'll share this experience with a story of my own.
+Ever since I was a child, I've loved listening to a great stories told by an enthralling storyteller. On our recent trip to London, I came across one such storyteller. I'll share this experience with a story of my own.
 
 The rare London sun beamed brightly on our faces as we entered the gates of the Tower of London. We had chosen the Tower as our first stop on a day full of sightseeing that included other attractions like posing in front of the timeless London Bridge, shopping at Borough Market, and touring the rebuilt Globe Theatre.
 
