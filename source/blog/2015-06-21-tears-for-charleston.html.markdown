@@ -9,4 +9,4 @@ I stood at my desk - reading. Well, not so much reading, as absorbing the detail
 
 But, I did - in the same way that I acknowledge another person of color that I've never met before. That is make eye contact and nod head ever so slightly. It's an acknowledgement that we are in the same struggle together as Black Americans. This shared struggle binds us like the DNA that binds me to my family.
 
-Therefore, when I look at Clementa, Sharonda, Myra, Tywanza, Ethel, Cynthia, Daniel, DePayne, and Susie, I don't see strangers. I see family. I see my mom, my dad, my brother, and my son...slain because of the rich melanin in their skin. And that only makes it that much harder to bear.
+Therefore, when I look at Clementa, Sharonda, Myra, Tywanza, Ethel, Cynthia, Daniel, DePayne, and Susie, I don't see strangers. I see family. They transform into my mom, my dad, my brother, and my son...all slain because of the rich melanin in their skin. And that transformation makes the senseless loss of their lives so much harder to bear.
