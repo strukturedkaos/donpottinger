@@ -31,4 +31,24 @@ The night ended with me on the couch stuffing my face while recounting the day's
 * Overcoming challenges - Scoring the last minute goal to help my team defeat a tough team
 * Spending quality time with people I care about - Lunching with a good friend to lounging on the couch with my wife
 
-[Ice Cube](https://www.youtube.com/watch?v=WoIgiwEVCUQ) said it best, "I gotta say it was a good day."
+[Ice Cube](https://www.youtube.com/watch?v=WoIgiwEVCUQ) said it best:
+
+> Today was like one of those fly dreams.
+<br>
+> Didn't even see a berry flashing those high beams.
+<br>
+> No helicopter looking for a murder
+<br>
+> 2 in the morning, got the Fatburger
+<br>
+> Even saw the lights of the Goodyear Blimp
+<br>
+> And it read "Ice Cube's a Pimp"
+<br>
+> Drunk as hell but no throwing up
+<br>
+> Half way home and my pager still blowing up
+<br>
+> Today I didn't even have to use my AK
+<br>
+> I got to say it was a good day
