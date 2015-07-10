@@ -13,7 +13,6 @@ The afternoon was spent fighting taco-induced 'itis while working on the slides 
 
 In the evening, I headed over to ATDC in Tech Square for my first Atlanta Ruby User's Group (ATLRUG) meeting. I was the second presenter. I gave my talk entitled, "How Kevy Uses Elasticsearch to Build Real-time Reporting." It was my first technical talk in front of an audience of other software engineers. I've had the pleasure of working with some of the faces in the crowd during my time at BNR. I look(ed) up to some of them, so it was slightly daunting to be presenting to them. It was surreal and exhilarating.
 
-
 Thankfully, they only know how to be supportive and kind, and my talk was received well (per Twitter):
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">⚡️ talk by <a href="https://twitter.com/donpottinger">@donpottinger</a> at <a href="https://twitter.com/atlrug">@atlrug</a> tonight was 🔥🔥🔥</p>&mdash; kylie (@KyFaSt) <a href="https://twitter.com/KyFaSt/status/618930721760112640">July 8, 2015</a></blockquote>
@@ -26,6 +25,10 @@ My last stop of the day was the soccer field. I arrived late; there were only ab
 
 We could have easily settled for the tie, but we kept fighting. With 1 minute left, we got a lucky break. My teammate's errant pass ricocheted off a defender's shin right into my path on the left side of the 6-yard box. I swiveled to the right, leaving my defender for dead, and took a couple steps toward the ball. I had one thing on my mind - shoot. I slid as I put my left-foot through the ball. I couldn't see ball since the keeper and defender blocked my line of sight, but a split-second later, I saw the ball was perfectly nestled in the back of the net. The game-winning goal came in the last minute of the game. We needed that win. It has been a rough season.
 
-The night ended with me on the couch tuffing my face while recounting the day's events to Kat. Looking back, what made the day great was the spending quality time with people I care about, facing fears like giving my first technical talk, and overcoming challenges like defeating a tough team and being productive. [Ice Cube](https://www.youtube.com/watch?v=WoIgiwEVCUQ) said it best:
+The night ended with me on the couch stuffing my face while recounting the day's events to Kat. Looking back, there were a few elements that made my day:
 
->I gotta say it was a good day
+* Facing my fears - Giving my first technical talk was a goal that I had for a couple of years
+* Overcoming challenges - Scoring the last minute goal to help my team defeat a tough team
+* Spending quality time with people I care about - Lunching with a good friend to lounging on the couch with my wife
+
+[Ice Cube](https://www.youtube.com/watch?v=WoIgiwEVCUQ) said it best, "I gotta say it was a good day."
