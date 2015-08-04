@@ -11,7 +11,7 @@ I shared the slides (with speaker notes) from the talk below. If you have any qu
 
 <iframe src="https://docs.google.com/presentation/embed?id=105dACwZIM_uHq93rj6efWlutCurkJceyXBqXQDIHQzo&amp;start=false&amp;loop=false&amp; frameborder="0" width="100%" height="500px"></iframe>
 
-Documenting the Twitter reaction serves a reminder to me of how amazingly supportive everyone was:
+Documenting the Twitter reaction reminds me of how amazingly supportive everyone was:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">⚡️ talk by <a href="https://twitter.com/donpottinger">@donpottinger</a> at <a href="https://twitter.com/atlrug">@atlrug</a> tonight was 🔥🔥🔥</p>&mdash; kylie (@KyFaSt) <a href="https://twitter.com/KyFaSt/status/618930721760112640">July 8, 2015</a></blockquote>
 
