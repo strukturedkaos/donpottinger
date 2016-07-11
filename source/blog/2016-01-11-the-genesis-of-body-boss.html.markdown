@@ -1,5 +1,5 @@
 ---
-title: The Startup Dream Team
+title: The Genesis of Body Boss
 date: January 11, 2016
 tags: body boss, startups, entrepreneurship, dream team, book
 published: true
@@ -9,7 +9,7 @@ Body Boss failed. This is the first time that I've typed those words. My co-foun
 
 You can download the book from Amazon [here](http://www.amazon.com/dp/B01A2NGDZ0).
 
-I had the distinct honor of authoring the Foreword in Daryl's book. I've excerpted it below.
+I had the distinct honor of authoring the foreword in Daryl's book. The foreword (excerpted below) details the genesis of Body Boss from the inception of the idea to the growth of the team, member by member. Enjoy.
 
 ## Foreword
 
