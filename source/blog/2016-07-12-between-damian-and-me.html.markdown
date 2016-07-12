@@ -23,7 +23,7 @@ published: true
 <br>
 > Me: Yes, I am dark brown.
 
-Your large brown eyes linger. You are studying my body language. It's as if you know there is more than I'm what telling you. How are you are already noticing the differences in color between your mother, your father and yourself? You are not even 3 years old. How did we get here so soon?
+Your large brown eyes linger. You are studying my body language. It's as if you know there is more that I'm not telling you. How are you are already noticing the differences in color between your mother, your father and yourself? You are not even 3 years old. How did we get here so soon?
 
 ![Damian and Me](http://www.evernote.com/l/AQf1NF8WTFJOEYiSLihP_3I3ySvaoYwozp4B/image.png)
 
