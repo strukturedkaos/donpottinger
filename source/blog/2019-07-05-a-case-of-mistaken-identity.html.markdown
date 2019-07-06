@@ -2,10 +2,11 @@
 title: A Case of Mistaken Identity
 date: July 5, 2019
 tags: race, stereotypes, prejudices, black, damian, son, mistaken identity
+description: I had an experience of mistaken identity at our neighborhood pool that really affected me.
 published: true
 ---
 
-We love taking the kids to our neighborhood pool. The kids take swim lessons there, so it’s a familiar and comfortable space for them to play. We parents get to stay cool while the kids expend all their energy. It’s a rare win-win for both parents and children. 
+We love taking the kids to our neighborhood pool. The kids take swim lessons there, so it’s a familiar and comfortable space for them to play. We parents get to stay cool while the kids expend all their energy. It’s a rare win-win for both parents and children.
 
 Today, I noticed there was a little light-skinned boy about Damian’s age. The kid was enjoying himself - playing with various pool toys. I thought to myself, “It’s cool to see another biracial kid playing at this pool.”
 
