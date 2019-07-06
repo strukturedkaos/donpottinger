@@ -31,7 +31,7 @@ In that moment I wanted to mount a strong and dramatic defense for my son, “La
 
 I didn’t. I’m glad I didn’t.
 
-I could have pointed out all the differences between my son and the other boy. From the innocuous, like the other boy was wearing blue googles while Damian wears green ones. To the things a black father to a biracial son notices, like the other boy is lighter skinned and has coarse, almost blond hair while Damian has wavy, dark hair. But...
+I could have pointed out all the differences between my son and the other boy. From the innocuous, like the other boy was wearing blue goggles while Damian wears green ones. To the things a black father to a biracial son notices, like the other boy is lighter skinned and has coarse, almost blond hair while Damian has wavy, dark hair. But...
 
 Again, I didn’t. I’m glad I didn’t.
 
